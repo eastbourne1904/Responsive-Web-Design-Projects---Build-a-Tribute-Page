@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+main {}
+title{
+  text-align: center;
+}
+img-div {
+
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+image{
+  display: block;
+  margin-left: 1fr;
+  margin-right: 1fr;
+}
+img-caption{
+   text-align: center;
+}
+tribute-info{}
+tribute-link{}
+a {
+  color: blue;
+}
+
+#boxshadow {
+  position: relative;
+  -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+  -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  padding: 10px;
+  background: lightgrey;
+}
+
+h2,h3 {
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-column-gap: 50px;
+  grid-template-columns: auto auto auto;
+
+  padding: 10px;
+}
+
+</style>
+</head>
+<br><br>
+<body>
+
+
+<div id="main">
+
+<div id="boxshadow">
+  <br><br>
+  <h2>The Perfect Couple</h2>
+  </div>
+
+  <div id="title" style="text-align: center">
+    <h1>Alasdair and Courtney</h1>
+  </div>
+  
+  <div id="img-div">
+    <img id="image" src="C:\Users\alasd\Pictures\13924987_858593180939298_1233711951013913692_n.jpg" style="width:50%;">
+    <h3 id="img-caption">A true loving couple!</h3>
+
+    <article>
+	<h4>Fairytales vs Real life</h4>
+	<p>Every girl dreams of relationships and marriage in terms of all the fairytales she has seen. Sleeping Beauty, Snow White, Princess Bride, etc. They all have the same thing in common. Some poor miserable girl is saved by a handsome prince, who shows up as a knight and whisks her off to a magical land.</p>
+        <p>It rarely happens. Typically a girl feels like she's an old maid if she doesn't have a boyfriend in school. She allows herself to sink into self doubt if she doesn't marry some jock by the age of 23. To this end nearly every girl does whatever it takes, literally, to catch the good-looking jock who looks good on her arm; the envy of all the other girls.</p>
+        <p>Long about the first kid or two she sees a change. The handsome jock is spending less and less time at home, and when he does he's not so nice. By the second or third kid she's done with all of that and is in queue for a divorce.</p>
+	<p>Oh, if only she knew what awaited her through her sorrow!</p>
+        <p>Along with her divorce comes an old familiar song. "Some day my prince will come." "Why can't I find my own knight in shining armour."</p>
+    </article>
+	<div class="grid-container">
+  	  <div class="grid-item"><img src="C:\Users\alasd\Downloads\403480_361484243907616_1151862793_n.jpg" style="width:200px; height:auto;"></div>
+  	  <div class="grid-item"><img src="C:\Users\alasd\Downloads\179690_375052765884097_1265059425_n.jpg" style="width:200px; height:auto;"></div>
+  	  <div class="grid-item"><img src="C:\Users\alasd\Downloads\156427_484131438309562_999205274_n.jpg" style="width:200px; height:auto;"></div> 
+	  <div class="grid-item"></div>
+	  <div class="grid-item" style="text-align:center">Year 1 and 2: Charlotte NC - St Simons GA - Huntersville NC</div>
+	  <div class="grid-item"></div>  
+	</div>
+    <article>
+	<h4>There was once such a girl</h4>
+	<p>Once upon a time, not so long ago, there was just such a girl. All of 17, she fell for the handsome prince who turned out, like all the other princes, to be a toad. And like most girls, she wished and wished for the toad to turn back into the prince; but he never did. True to most toads, he hopped off with someone younger and took everything with him - except his princess bride. And in her tears, poured into the magical pond, she wished a wish that all tossed aside princesses wish./p>
+        <p style="text-align:center">I wish I may, I wish I might...why can't I have my own knight in shining armour come to rescue me?</p>
+    </article>
+	<div class="grid-container">
+  	  <div class="grid-item"><img src="C:\Users\alasd\Downloads\521894_556717777717594_2039887433_n.jpg" style="width:200px; height:auto;"></div>
+  	  <div class="grid-item"><img src="C:\Users\alasd\Downloads\10446488_719756968080340_6856566165544031791_n.jpg" style="width:200px; height:auto;"></div>
+  	  <div class="grid-item"><img src="C:\Users\alasd\Downloads\564807_431506266905413_1091789000_n.jpg" style="width:200px; height:auto;"></div>
+	  <div class="grid-item"></div>
+	  <div class="grid-item" style="text-align:center">Year 3 and 4: Atlanta US - Eastbourne UK</div>
+	  <div class="grid-item"></div>    
+	</div>
+    <article>
+	<h4>Wishes can come true</h4>
+	<p>So she goes to the witches in the forest, or in this case mother and friends, and asks for a potion. She is oblighed in the form of a fun-filled day at the ren-fare. Surely there has to be a knight in shining armour there, ey? Well, as Jiminy Cricket sang...</p>
+        <p style="text-align:center">A Dream Is A Wish Your Heart Makes</p>
+        <p style="text-align:center">A dream is a wish your heart makes</p>
+        <p style="text-align:center">When you're fast asleep</p>
+        <p style="text-align:center">In dreams you lose your heartaches</p>
+        <p style="text-align:center">Whatever you wish for, you keep</p>
+        <br>
+        <p style="text-align:center">Have faith in your dreams and someday</p>
+        <p style="text-align:center">Your rainbow will come smiling through</p>
+        <p style="text-align:center">No matter how your heart is grieving</p>
+        <p style="text-align:center">If you keep on believing</p>
+        <p style="text-align:center">the dream that you wish will come true</p>
+        <br>
+        <p>And...wah lah! A knight in shining armour REALLY DID show up! Honest! Okay, so the meeting wasn't exactly perfect. It's true, a knight in armour did come up to her; but he was drug over by a scholarly friend. That's okay, but when it's ninty-two degrees out and you're in a tin can, its hard to knightly.</p>
+        <p>And so it was that the princess could only feel sorry for the poor knight and the knight was cooking in that tin can so he couldn't really find her as beautiful as perhaps he should have. If Jimminy was right, they would get another chance.</p>
+    </article>
+	<div class="grid-container">
+  	  <div class="grid-item"><img src="C:\Users\alasd\Downloads\426652_410949648961075_1676662821_n.jpg" style="width:200px; height:auto;"></div>
+  	  <div class="grid-item"><img src="C:\Users\alasd\Downloads\10344330_711204865602217_5324909248163890526_o.jpg" style="width:200px; height:auto;"></div>
+  	  <div class="grid-item"><img src="C:\Users\alasd\Downloads\1465230_619543474768357_1527407696_n.jpg" style="width:200px; height:auto;"></div>
+	  <div class="grid-item"></div>
+	  <div class="grid-item" style="text-align:center">Year 5 and 6: Toronto Canada - Eastbourne UK - Edinbugh</div>
+	  <div class="grid-item"></div>    
+	</div>
+    <article>
+	<h4>If it's meant to be</h4>
+	<p>If it's written in the stars, they say, you will meet again. Well I don't know about the stars, but this one princess did meet that knight again. She didn't know it was him. Oh no! It was six months later and her knight was running around in a kilt at the highland games.</p>
+	<p style="text-align:center">"Nice!", says she, "but it wouldn't be proper to just strike up a conversation.</p>
+	<p style="text-align:center">"Nice!", says he, "but it wouldn't be proper to talk to her without being properly introduced.</p>
+	<p style="text-align:center">"Posh!", says the same two witches.</p>
+	<p style="text-align:center">"Nonscence!",says the same old scholar. "This is America. I will ask them all out."</p>
+	<p>And so the old scholar did just that. He drug over the kilted Welshman over to the princess and witches and introduced himself and his friend.</p>
+	<p>Perhaps it was the fact that older people can tell when people are in love. Or perhaps it was just that older people have moved past the pain and say "what the heck". Whatever the case, the nudging and support brought these two together."
+	<p>For this couple it was truly magic! 
+	<div class="grid-container">
+  	  <div class="grid-item"><img src="C:\Users\alasd\Downloads\399752_410952782294095_1689556023_n.jpg" style="width:200px; height:auto;"></div>
+  	  <div class="grid-item"><img src="C:\Users\alasd\Downloads\1622615_670983109624393_1483973700_n.jpg" style="width:200px; height:auto;"></div>
+  	  <div class="grid-item"><img src="C:\Users\alasd\Downloads\10625133_762849737104396_5019317926523793480_n.jpg" style="width:200px; height:auto;"></div>
+	  <div class="grid-item"></div>
+	  <div class="grid-item" style="text-align:center">Year 7: Edinburgh Scotland - Cornwall UK - London UK</div>
+	  <div class="grid-item"></div>    
+	</div>
+
+    <p><b><a id="tribute-link" href="https://www.facebook.com/mostphotographedcouple/" target="_blank">Where are they now</a></b></p>
+  </div>
+
+  <div id="tribute-info">
+    <p>I have known many many couples and have lived many many years. The story of love is as old as time. Books and fairytales have been written upon the subject, but only once upon a time does the love last. A true love comes but once in a lifetime and often gets missed. This one couple adore each other, but oddly they missed it. Everyone around them kept holding their breath waiting for them to realize how much in love they were. Too proper, too shy, too scared to reach out. But for the fairytale witch and a scholar, they would have been ships that passed in the night. Sometimes, however, fairytales do come true - if you wish just right upon that star. Alasdair and Courtney, an old Welsh bachelor and a disillusioned Scotswoman found each other against the odds and LIVED HAPPILY EVER AFTER for real!<p>
+  </div>
+</div>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
