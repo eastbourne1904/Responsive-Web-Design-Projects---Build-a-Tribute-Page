@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <br><br>
+    <h1 id="title">Survey of your Chaplain</h1>
+  </head>
+  <style>
+  form { 
+    display: block;
+    margin-top: 0em;
+  }
+
+  </style>
+  <body>
+    <p id="description">Please give us your opinion on your chaplain.</p>
+    <form action="/action_page.php" id="survey-form">This is my form<br><br>
+      <label id="name-label" for="name"> Name: </label>
+      <input type="text" placeholder="Enter your name..." id="name" required><br>
+      <label id="email-label" for="email">Email: </label>
+      <input type="email" placeholder="Enter your email...(error if incorrect)" id="email" required><br>
+      <label id="number-label" for="number">Phone: </label>
+      <input type="number" placeholder="Enter your phone number...(No Dashes)" min=10 max=10 id="number"><br>
+
+      <label id="religion-label" for="religion">Religious Affiliation</label>
+         <select id="dropdown" name="religion">
+           <option value="" disabled selected ></option>
+           <option value="protestant">Protestant</option>
+           <option value="catholic">Catholic</option>
+           <option value="mormon">Mormon</option>
+           <option value="jehova">Jahova's Witness</option>
+           <option value="orthodox">Orthodox</option>
+           <option value="otherchristian">Other Christian</option>
+           <option value="jewish">Jewish</option>
+           <option value="muslim">Muslim</option>
+           <option value="buddist">Buddist</option>
+           <option value="hindu">Hindu</option>
+           <option value="pegan">Pegan</option>
+           <option value="owr">Other world religions</option>
+           <option value="of">Other faiths</option>
+           <option value="atheist">Atheist</option>
+           <option value="agnostic">Agnostic</option>
+         </select>
+      <br>
+
+    <label> I identify as...</label><br>
+      <input type="radio" name="gender" value="male"> Male<br>
+      <input type="radio" name="gender" value="female"> Female<br>
+      <input type="radio" name="gender" value="other"> Other
+      <br>
+
+    <label>I identify as...</label><br>
+      <input type="checkbox" value="worship1" checked> Worship at church regularly<br>
+      <input type="checkbox" value="worship2"> Worship at church sometimes<br>
+      <input type="checkbox" value="worship3"> Worship at church on holidays<br>
+      <input type="checkbox" value="read"> I only read the bible.<br>
+      <input type="checkbox" value="practice"> I practice my religion.
+      <input type="checkbox" value="sacraments"> I take the sacraments.
+      <br>
+
+    <textarea rows="4" cols="100">Enter any comments here...</textarea>
+      <br><br><input type="submit" id="submit" value="Submit">
+
+    </form>
+
+  </body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</html>
